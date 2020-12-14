@@ -9,10 +9,19 @@ list-style-type: none;
 color:#0065FC;
 
 }
+ 
 
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
 
+p
+{
 
-
+line-height: 0cm;
+font-size: 20px;
+}
 li
 {
 margin-right: 77px;
@@ -26,12 +35,66 @@ header {
 
 }
 
-img
+
+.money
 {
-max-width: 100px;
-max-height: 70px;
+
+border:  #F2F2F2 3px solid;
+border-radius: 60px;
+display: flex;
+width: 150px;
+height: 40px;
+
+
+
 
 }
+   
+.dog, .heart, .baby, .billet
+{
+ width: 20px;
+ height: 20px;
+background-color: #deebff;
+border-radius: 90px;
+padding: 10px;
+text-align: center;
+margin-left: 0px;
+
+
+
+
+
+
+}
+
+
+.eco
+{
+   
+    text-align: center;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+#test
+{
+ 
+   display: flex; 
+
+}
+#filtre
+{
+    display: flex;
+     
+
+    
+}
+
+
 
 #hébergements
 
