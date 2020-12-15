@@ -1,67 +1,72 @@
 
-
-
 nav ul
-
 {
 display: flex ;
 list-style-type: none;
 color:#0065FC;
-
 }
  
-
-img {
-    max-width: 220px;
-    max-height: 150px;
+img
+{
+max-width: 220px;
+max-height: 150px;
 }
 
 p
 {
-
 line-height: 0cm;
 font-size: 20px;
 }
+
 li
 {
 margin-right: 77px;
-
 }
-header {
-
+header
+ {
  display: flex;
  justify-content: space-between;
- 
+}
 
+
+.titr
+
+{ 
+margin-top: 25px;
+width: 10px;
+font-size: 15px; 
 }
 
 
 .money
 {
-
 border:  #F2F2F2 3px solid;
 border-radius: 60px;
 display: flex;
-width: 140px;
+width: 130px;
 height: 30px;
+font-size: 15px;
 }
 
 .family
 {
-    border:  #F2F2F2 3px solid;
-    border-radius: 60px;
-    display: flex;
-    width: 140px;
-    height: 30px;
+border:  #F2F2F2 3px solid;
+border-radius: 60px;
+display: flex;
+width: 105px;
+height: 30px;
+font-size: 15px;   
 }
 
 .love
 {
+    display: flex;
     border:  #F2F2F2 3px solid;
     border-radius: 60px;
-    display: flex;
-    width: 140px;
+
+    width: 125px;
     height: 30px;
+    font-size: 15px;
 }
 
 .pets
@@ -70,8 +75,9 @@ height: 30px;
     border:  #F2F2F2 3px solid;
     border-radius: 60px;
     display: flex;
-    width: 140px;
+    width: 165px;
     height: 30px;
+    font-size: 15px;
 }
 
    
@@ -82,211 +88,50 @@ height: 20px;
 background-color: #deebff;
 border-radius: 90px;
 padding: 8px;
-text-align: center;
 margin-top: -3px;
 margin-left: -4px;
 }
 
 
-.eco
+
+.eco, .famille, .coeur, .chien
+
 {
-   
-    text-align: center;
-   
-    margin-left: 12px;
-    margin-top: 6px;
+margin-top: 7px;
+margin-left: 8px;
+
 }
 
 
 
-
-#test
-{
- 
-   display: flex; 
-
-}
-#filtre
+#fi
 {
     display: flex;
-     
-
-    
 }
 
 
-
-#hébergements
+.infos
 
 {
 
-display: flex;
-background-color: green;
-
-
-width: 1000px;
-border-radius: 10px;
-flex-wrap: wrap;
-
-
-
-
+    display: flex;
+    margin-left: auto;
+}
+.bulle
+{
+    border: 1px solid;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+}
+.logem
+{
+margin-top: 2px;
+margin-left: 5px;
+font-size: 20px;
 
 }
-
-#description
-{
-
-background-color: white;
-border: 10px;
-
-
-
-}
-
-#vignette1
-
-{
-
-border-radius: 55px;
-border-style: solid white;
-background: url("marcus-loke-WQJvWU_HZFo-unsplash.jpg") no-repeat;
-height: 330px;
-width: 500px;
-
-
-}
-
-#vignette2
-
-{
-
-    border-radius: 55px;
-    border-style: solid, white;
-    background: url("fred-kleber-gTbaxaVLvsg-unsplash.jpg") no-repeat;
-    height: 330px;
-    width: 150px;
-    
-    }
-
-    #vignette3
-
-    {
-    
-        border-radius: 55px;
-        border-style: solid white;
-        background: url("reisetopia-B8WIgxA_PFU-unsplash.jpg") no-repeat;
-        height: 330px;
-        width: 150px;
-        
-        }
-
-        #vignette4
-
-{
-
-    border-radius: 55px;
-    border-style: solid white;
-    background: url("annie-spratt-Eg1qcIitAuA-unsplash.jpg") no-repeat;
-    height: 330px;
-    width: 150px;
-    
-    }
-
-    #vignette5
-
-{
-
-    border-radius: 55px;
-    border-style: solid white;
-    background: url("nicate-lee-kT-ZyaiwBe0-unsplash.jpg") no-repeat;
-    height: 330px;
-    width: 150px;
-    
-    }
-
-
-    #vignette6
-
-{
-
-    border-radius: 55px;
-    border-style: solid white;
-    background: url("fred-kleber-gTbaxaVLvsg-unsplash.jpg") no-repeat;
-    height: 330px;
-    width: 150px;
-    
-    }
-
-    
-    #vignette7
-
-    {
-    
-        border-radius: 20px;
-        border-style: solid white;
-        background: url("emile-guillemot-Bj_rcSC5XfE-unsplash.jpg") no-repeat;
-        height: 500px;
-        width: 800px;
-        
-        }
-
-
-        #vignette8
-
-{
-
-    border-radius: 20px;
-    border-style: solid white;
-    background: url("aw-creative-VGs8z60yT2c-unsplash.jpg") no-repeat;
-    height: 500px;
-    width: 800px;
-    
-    }
-
-    #vignette9
-
-{
-
-    border-radius: 55px;
-    border-style: solid white;
-    background: url("febrian-zakaria-sjvU0THccQA-unsplash.jpg") no-repeat;
-    height: 500px;
-    width: 800px;
-    
-    }
-
-
-#populaire
-
-{
-
-
-display: flex;
-background-color: #F2F2F2;
-border-radius: 10px;
-width: 700px;
-flex-direction: column;
-
-
-
-}
-
-#toop
-
-
-{
-
-display: flex;
-background-color: #F2F2F2;
-width: 70px;
-border-radius: 10px;
-flex direction: ;
-margin-left: 20px;
-
-
-}
-
 footer
 {
     display: flex;
