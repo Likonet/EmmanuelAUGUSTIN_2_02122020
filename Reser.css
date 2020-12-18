@@ -28,110 +28,62 @@ header
  justify-content: space-between;
 }
 
+  .fas  
+  {
+color: #0065FC;
+background-color: #DEEBFF;
+padding: 10px;
+border-radius: 110px;
+width: 11px;
+height: 11px;
+  }
 
-.titr
 
-{ 
-margin-top: 25px;
-width: 10px;
-font-size: 15px; 
-}
+  
+.eco, .fam, .love, .pets
 
-
-.money
 {
-border:  #F2F2F2 3px solid;
-border-radius: 60px;
-display: flex;
-width: 130px;
-height: 30px;
-font-size: 15px;
+ background-color: white;  
+ border: solid #F2F2F2;
+border-radius: 200px;
+max-height: 45px;
+margin-left: 20px;
+line-height: normal;
+
+
+
 }
 
-.family
+.eco
 {
-border:  #F2F2F2 3px solid;
-border-radius: 60px;
-display: flex;
-width: 105px;
-height: 30px;
-font-size: 15px;   
-}
+width: 120px;
 
+}
+.fam
+{
+width: 120px;
+}
 .love
 {
-    display: flex;
-    border:  #F2F2F2 3px solid;
-    border-radius: 60px;
-
-    width: 125px;
-    height: 30px;
-    font-size: 15px;
+width: 130px;    
 }
-
 .pets
-
 {
-    border:  #F2F2F2 3px solid;
-    border-radius: 60px;
-    display: flex;
-    width: 165px;
-    height: 30px;
-    font-size: 15px;
-}
-
-   
-.dog, .heart, .baby, .billet
-{
-width: 20px;
-height: 20px;
-background-color: #deebff;
-border-radius: 90px;
-padding: 8px;
-margin-top: -3px;
-margin-left: -4px;
+width: 190px;    
 }
 
 
 
-.eco, .famille, .coeur, .chien
-
-{
-margin-top: 7px;
-margin-left: 8px;
-
-}
 
 
-
-#fi
+.filtrage
 {
     display: flex;
 }
 
 
-.infos
 
-{
 
-    display: flex;
-    margin-left: auto;
-}
-.bulle
-{
-    border: 1px solid;
-    border-radius: 50px;
-    width: 15px;
-    height: 15px;
-    padding: 4px;
-}
-.logem
-{
-margin-top: 2px;
-margin-left: 5px;
-font-size: 20px;
-
-}
 footer
 {
     display: flex;
