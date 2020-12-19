@@ -38,7 +38,24 @@ width: 11px;
 height: 11px;
   }
 
-
+.fa-info
+{
+    background-color: white;
+    border: solid  #F2F2F2;
+    border-radius: 30px;
+    height: 1px;
+    width: 0px;
+    font-size: 9px;
+}
+.fa-star
+{
+    background-color: white;
+    padding: 0px;
+    border-left: 1px;
+  
+    color: #0065FC;
+   
+}
   
 .eco, .fam, .love, .pets
 
@@ -81,8 +98,70 @@ width: 190px;
     display: flex;
 }
 
+.fa-star
+{
+color: #0065FC;
+
+}
+section
+{
+   
+
+}
+aside, article
+
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    max-height: 49%;
+   
+}
+.auberge, .port, .mouette, .mer, .panier, .amina
+{
+    border: white  solid;
+    display: flex;
+    flex-flow: column;
+    padding: 2px;
+    border-radius: 35px;
+    background-color: white;
+    width: 250px;
+    margin: 0px;
+  
+}
+img
+{
+    max-width: 250px;
+    max-height: 150px;
+    border-radius: 30px 30px 0px 0px; 
+}
+.pan
+{
+    height: 160px;
+}
+article
+{
+    width: 900px;
+    height: 600px;
+   
+}
+
+.imageheberg
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+aside
+{
+    width: 500px;
+    margin-left: 90px;
+}
+.Heberg
+{
+display: flex;
 
 
+}
 
 footer
 {
