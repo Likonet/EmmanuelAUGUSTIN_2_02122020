@@ -2,14 +2,34 @@
 nav ul
 {
 display: flex ;
+justify-content: flex-end;
 list-style-type: none;
 color:#0065FC;
 }
  
-img
+body
 {
-max-width: 220px;
-max-height: 150px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.logopos
+{
+margin: 0px;
+}
+.logo
+{
+width: 90px;
+height: 50px;
+margin: 0;
+}
+.actcolor
+{
+    color: black;
+}
+.titre
+{
+    margin: 5px;
 }
 
 p
@@ -36,6 +56,8 @@ padding: 10px;
 border-radius: 110px;
 width: 11px;
 height: 11px;
+position: absolute;
+left: 0px;
   }
 
 .fa-info
@@ -56,17 +78,27 @@ height: 11px;
     color: #0065FC;
    
 }
+.soustitre
+{
+display: flex;
+}
   
-.eco, .fam, .love, .pets
-
+ /*.eco, .fam, .love, .pets*/
+ 
+ .filtrebouton
 {
  background-color: white;  
  border: solid #F2F2F2;
+ border-style: solid solid solid none;
 border-radius: 200px;
-max-height: 45px;
+max-height: 32px;
 margin-left: 20px;
 line-height: normal;
-
+display: flex;
+align-items: center;
+justify-content: flex-end;
+position: relative;
+padding-right: 1%;
 
 
 }
@@ -78,15 +110,15 @@ width: 120px;
 }
 .fam
 {
-width: 120px;
+width: 100px;
 }
 .love
 {
-width: 130px;    
+width: 120px;    
 }
 .pets
 {
-width: 190px;    
+width: 150px;    
 }
 
 
@@ -95,7 +127,10 @@ width: 190px;
 
 .filtrage
 {
+   
     display: flex;
+justify-content: space-around;
+width: 980px;
 }
 
 .fa-star
@@ -103,17 +138,16 @@ width: 190px;
 color: #0065FC;
 
 }
-section
-{
-   
 
-}
 aside, article
 
 {
     background-color: #F2F2F2;
     border-radius: 20px;
     max-height: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
    
 }
 .auberge, .port, .mouette, .mer, .panier, .amina
@@ -124,24 +158,27 @@ aside, article
     padding: 2px;
     border-radius: 35px;
     background-color: white;
-    width: 250px;
+    width: 210px;
     margin: 0px;
   
 }
-img
+ .vi2, .vi3, .vi4, .vi6, .vi1
 {
-    max-width: 250px;
-    max-height: 150px;
+    max-width: 210px;
+    max-height: 115px;
     border-radius: 30px 30px 0px 0px; 
 }
 .pan
 {
-    height: 160px;
+    height: 150px;
+    max-width: 250px;
+    border-radius: 30px 30px 0px 0px; 
+}
 }
 article
 {
     width: 900px;
-    height: 8s00px;
+    height: 800px;
    
 }
 
@@ -150,17 +187,24 @@ article
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-between;
+    align-content: space-between; /*espace vertical non fonctionnel*/
+    height: 400px;
+    padding: 30px;
     }
 
 .pop1, .pop2, .pop3
 {
-    width: 125px;
-    height: 175px;
+    width: 115px;
+    height: 135px;
     border-radius: 30px 0px 0px 30px;
 
 }
     
+.notes 
+{
+
+    display: flex;
+}
 .blanc, .eau, .soleil
 {
     border: white  solid;
@@ -168,7 +212,7 @@ article
     padding: 2px;
     border-radius: 35px;
     background-color: white;
-    width: 400px;
+    width: 320px;
     margin: auto;  
 }
 
@@ -176,9 +220,19 @@ article
 aside
 {
     
-    width: 500px;
+    width: 330px;
     margin-left: 90px;
-    align-content: space-around;
+   
+    padding: 30px;
+}
+
+.pop
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 495px;
 }
 .Heberg
 {
@@ -191,4 +245,40 @@ footer
 {
     display: flex;
     background-color: #F2F2F2;
+}
+
+.marinaa, .calanques, 
+{
+height: 300px;
+width: 100px;
+}
+
+.pomègues, .ile,  .notres, .longchamps
+{
+height: 150px;
+width: 200px;
+}
+.Activités
+
+{
+ display: flex;   
+ flex-wrap: wrap;
+}
+.vieuxport, .fort, .frioul, .parc, .Dame,
+
+{
+
+}
+.gr1, .gr2, 
+{
+display: flex;
+flex-direction: column;
+margin: 0px;
+
+}
+
+.test
+{
+    border: solid;
+background-image: url("lena-paulin-wH2-EJoDcV0-unsplash.jpg") no-repeat;
 }
