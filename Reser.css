@@ -48,7 +48,7 @@ header
  justify-content: space-between;
 }
 
-  .fas  
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog  
   {
 color: #0065FC;
 background-color: #DEEBFF;
@@ -225,7 +225,16 @@ aside
    
     padding: 30px;
 }
+ul
+{
+    list-style-type: none;
+}
 
+/*.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+position: absolute;
+left: 0px;
+}*/
 .pop
 
 {
