@@ -7,9 +7,9 @@ list-style-type: none;
 color:#0065FC;
 }
  
-body
+.bloc_page
 {
-margin-left: 50px;
+margin-left: 50px ;
 margin-right: 50px;
 }
 
@@ -31,7 +31,37 @@ margin: 0;
 {
     margin: 5px;
 }
+.btrecher
+{
+border: solid white;
+background-color: #0065FC;
+margin-left: -3px;
+border-radius: 0px 13px 13px 0;
+color: white;
+height: 43px;
+padding: 12px;
+}
+.fa-map-marker-alt
+{
+    background-color: #f2F2F2;
+    padding: 15px;
+    height: 15px;
+    border-radius: 13px 0px 0px 13px;
+    margin-right: -2px;
+}
+input
+{
+height: 42px;
+border: solid #F2F2F2 1px;
+margin: 0px;
+}
 
+
+
+.recherche
+{
+display: flex;
+}
 p
 {
 line-height: 0cm;
@@ -40,14 +70,19 @@ font-size: 20px;
 
 li
 {
-margin-right: 77px;
+margin-right: 0px;
+margin-left: 90px;
+margin-top: 11px;
 }
 header
  {
  display: flex;
  justify-content: space-between;
 }
-
+ .groupbouton
+ {
+display: flex;
+ }
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog  
   {
 color: #0065FC;
@@ -62,12 +97,11 @@ left: 0px;
 
 .fa-info
 {
-    background-color: white;
-    border: solid  #F2F2F2;
-    border-radius: 30px;
-    height: 1px;
-    width: 0px;
-    font-size: 9px;
+    padding: 6px 8px;
+    border: #F2F2F2 solid 1px;
+    border-radius: 64px;
+    font-size: 8px;
+    color: #0065FC;
 }
 .fa-star
 {
@@ -81,6 +115,7 @@ left: 0px;
 .soustitre
 {
 display: flex;
+align-items: center;
 }
   
  /*.eco, .fam, .love, .pets*/
@@ -129,8 +164,7 @@ width: 150px;
 {
    
     display: flex;
-justify-content: space-around;
-width: 980px;
+
 }
 
 .fa-star
@@ -225,6 +259,10 @@ aside
    
     padding: 30px;
 }
+.fa-chart-line
+{
+    margin-left: 138px;
+}
 ul
 {
     list-style-type: none;
@@ -256,27 +294,69 @@ footer
     background-color: #F2F2F2;
 }
 
-.marinaa, .calanques, 
+ .calanques, .marinaa
 {
-height: 300px;
-width: 100px;
+height: 400px;
+width: 300px;
+border-radius: 25px 25px 0px 0px;
 }
 
 .pomègues, .ile,  .notres, .longchamps
 {
-height: 150px;
-width: 200px;
+
+border-radius: 25px 25px 0px 0px;
+}
+.pomègues
+
+{
+    height: 150px;
+    width: 300px;
+}
+.longchamps
+{
+    height: 180px;
+    width: 300px;
+}
+.ile
+{
+    height: 150px;
+    width: 300px; 
+    margin-top: 13px;
+}
+
+.notres
+{
+    height: 150px;
+    width: 300px; 
+    margin-top: 13px;
+
+
 }
 .Activités
 
 {
  display: flex;   
- flex-wrap: wrap;
+justify-content: space-between;
+height: 500px;
+ 
 }
-.vieuxport, .fort, .frioul, .parc, .Dame,
-
+.Dame, .longc
 {
-
+   
+}
+.vieuxport, .fort, .frioul, .parc, .Dame
+{
+    border-radius: 11px;
+    margin-top: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.vieuxport
+{
+    margin: 0;
 }
 .gr1, .gr2, 
 {
@@ -284,10 +364,20 @@ display: flex;
 flex-direction: column;
 margin: 0px;
 
+
 }
 
-.test
+.capvieux, .capfort, .capile, .capparc, .capnotre, .caplong
 {
-    border: solid;
-background-image: url("lena-paulin-wH2-EJoDcV0-unsplash.jpg") no-repeat;
+border-radius: 0px 0px 25px 25px;
+box-shadow: 5px 5px 7px 1px #f2f2f2;
+padding: 20px;
+
+}
+
+.capnotre
+{
+    width: 280px;
+    margin: 0;
+
 }
