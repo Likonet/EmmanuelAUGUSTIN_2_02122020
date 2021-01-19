@@ -23,31 +23,58 @@ width: 90px;
 height: 50px;
 margin: 0;
 }
-.actcolor
-{
-    color: black;
-}
+
 .titre
 {
     margin: 5px;
 }
 .btrecher
 {
+    border: none;
+background-color: #0065FC;
+
+border-radius: 0px 13px 13px 0;
+color: white;
+height: 46px;
+padding: 12px;
+margin: 0px;
+
+    /*
 border: solid white;
 background-color: #0065FC;
 margin-left: -3px;
 border-radius: 0px 13px 13px 0;
 color: white;
 height: 43px;
-padding: 12px;
+padding: 12px;*/
 }
 .fa-map-marker-alt
 {
     background-color: #f2F2F2;
     padding: 15px;
-    height: 15px;
+    height: 16px;
     border-radius: 13px 0px 0px 13px;
     margin-right: -2px;
+}
+.ecoeco, .famfam, .romrom, .aniani
+{
+font-weight: bold;
+font-size: 15px;
+}
+.ecoeco{
+padding: 13px;
+}
+.famfam
+{
+padding: 13px;
+}
+.romrom
+{
+    padding: 13px;
+}
+.aniani
+{
+    padding: 13px;
 }
 input
 {
@@ -85,14 +112,31 @@ display: flex;
  }
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog  
   {
+
+
 color: #0065FC;
 background-color: #DEEBFF;
-padding: 10px;
 border-radius: 110px;
-width: 11px;
-height: 11px;
 position: absolute;
 left: 0px;
+font-size: 16px;
+
+  }
+  .fa-money-bill-wave
+  {
+    padding: 15px 13px;
+  }
+  .fa-child
+  {
+    padding: 14px 16px;
+  }
+  .fa-heart
+  {
+    padding: 14px 15px;
+  }
+  .fa-dog
+  {
+    padding: 14px 14px;
   }
 
 .fa-info
@@ -122,11 +166,12 @@ align-items: center;
  
  .filtrebouton
 {
- background-color: white;  
- border: solid #F2F2F2;
- border-style: solid solid solid none;
+
+background-color: white;
+border: solid #F2F2F2;
+border-style: solid solid solid none;
 border-radius: 200px;
-max-height: 32px;
+max-height: 45px;
 margin-left: 20px;
 line-height: normal;
 display: flex;
@@ -135,25 +180,24 @@ justify-content: flex-end;
 position: relative;
 padding-right: 1%;
 
-
 }
 
 .eco
 {
-width: 120px;
+width: 170px;
 
 }
 .fam
 {
-width: 100px;
+width: 134px;
 }
 .love
 {
-width: 120px;    
+width: 170px;    
 }
 .pets
 {
-width: 150px;    
+width: 220px;    
 }
 
 
@@ -164,7 +208,8 @@ width: 150px;
 {
    
     display: flex;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .fa-star
@@ -173,6 +218,18 @@ color: #0065FC;
 
 }
 
+article
+{
+   
+    width: 782px;
+}
+aside
+{
+  
+    width: 496px;
+margin-left: 40px;
+  
+}
 aside, article
 
 {
@@ -251,14 +308,7 @@ article
 }
 
 
-aside
-{
-    
-    width: 330px;
-    margin-left: 90px;
-   
-    padding: 30px;
-}
+
 .fa-chart-line
 {
     margin-left: 138px;
