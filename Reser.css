@@ -1,10 +1,21 @@
 
+@font-face
+{
+font-family: "Raleway";
+src: url('Raleway-Thin.ttf');
+}
+
+body
+{
+    font-family: 'Raleway';
+}
 nav ul
 {
 display: flex ;
 justify-content: flex-end;
 list-style-type: none;
 color:#0065FC;
+font-family: Raleway;
 }
  
 .bloc_page
@@ -58,6 +69,7 @@ padding: 12px;*/
 }
 .ecoeco, .famfam, .romrom, .aniani
 {
+ font-family: 'Raleway-Thin.ttf';   
 font-weight: bold;
 font-size: 15px;
 }
@@ -202,7 +214,11 @@ width: 220px;
 
 
 
+.filtrebouton:hover
+{
 
+background-color:#F2F2F2;
+}
 
 .filtrage
 {
@@ -215,6 +231,8 @@ width: 220px;
 .fa-star
 {
 color: #0065FC;
+font-size: 10px;
+
 
 }
 
@@ -230,6 +248,24 @@ aside
 margin-left: 40px;
   
 }
+h1
+{
+font-family: "Raleway-Regular.ttf";
+}
+h4
+{
+    
+    font-family: "Raleway-Thin.ttf";
+    font-size: small;
+
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+.prix
+{
+    font-family: "Raleway-Thin.ttf";
+}
+
 aside, article
 
 {
@@ -238,7 +274,7 @@ aside, article
     max-height: 49%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;  
+    
    
 }
 .auberge, .port, .mouette, .mer, .panier, .amina
@@ -247,17 +283,18 @@ aside, article
     display: flex;
     flex-flow: column;
     padding: 2px;
-    border-radius: 35px;
+    border-radius: 20px;
     background-color: white;
-    width: 210px;
+    width: 220px;
     margin: 0px;
+    height: 190px;
   
 }
- .vi2, .vi3, .vi4, .vi6, .vi1
+ .vi2, .vi3, .vi4, .vi6, .vi5, .vi1
 {
-    max-width: 210px;
+    max-width: 220px;
     max-height: 115px;
-    border-radius: 30px 30px 0px 0px; 
+    border-radius: 15px 15px 0px 0px; 
 }
 .pan
 {
@@ -279,7 +316,7 @@ article
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between; /*espace vertical non fonctionnel*/
-    height: 400px;
+    height: 420px;
     padding: 30px;
     }
 
@@ -298,13 +335,15 @@ article
 }
 .blanc, .eau, .soleil
 {
+    
     border: white  solid;
-    display: flex;
-    padding: 2px;
-    border-radius: 35px;
-    background-color: white;
-    width: 320px;
-    margin: auto;  
+display: flex;
+padding: 2px;
+border-radius: 35px;
+background-color: white;
+width: 398px;
+margin: auto;
+height: 141px; 
 }
 
 
@@ -330,6 +369,7 @@ left: 0px;
     flex-direction: column;
     justify-content: space-between;
     height: 495px;
+    
 }
 .Heberg
 {
@@ -350,7 +390,11 @@ height: 400px;
 width: 300px;
 border-radius: 25px 25px 0px 0px;
 }
+.legheb
+{
 
+    margin-left: 10px;
+}
 .pomègues, .ile,  .notres, .longchamps
 {
 
