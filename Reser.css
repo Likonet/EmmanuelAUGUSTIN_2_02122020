@@ -11,9 +11,19 @@ src: url('Raleway-Bold.ttf');
 {font-family: "semi";
 src: url('Raleway-SemiBold.ttf');
 }
-h4, h2, h3
+h4, h2, h3, h1, .footbold
 {
 font-family: "semi";
+}
+h1
+{
+    font-size: 19px;
+
+}
+
+h2
+{
+
 }
 body
 {
@@ -59,7 +69,9 @@ color: white;
 height: 46px;
 padding: 12px;
 margin: 0px;
-
+width: 120px;
+font-size: medium;
+font-family: "semi";
     /*
 border: solid white;
 background-color: #0065FC;
@@ -76,6 +88,8 @@ padding: 12px;*/
     height: 16px;
     border-radius: 13px 0px 0px 13px;
     margin-right: -2px;
+    padding-right: 19px;
+padding-left: 19px;
 }
 .ecoeco, .famfam, .romrom, .aniani
 {   
@@ -104,24 +118,26 @@ input
 height: 42px;
 border: solid #F2F2F2 1px;
 margin: 0px;
+width: 195px;
 }
 
 
 .titrediv
 {
-margin-left: 30px;
+margin-left: 50px;
 margin-top: 45px;
 margin-bottom: 25px;
 }
 .recherche
 {
 display: flex;
+margin-top: 25px;
 }
 p
 {
 line-height: 0cm;
-font-size: 20px;
-margin-bottom: 25px;
+font-size: 14px;
+
 }
 a
 {
@@ -177,10 +193,10 @@ font-size: 16px;
 .fa-info
 {
     
-padding: 6px 10px;
+padding: 7px 10px;
 border: #F2F2F2 solid 1px;
 border-radius: 64px;
-font-size: 13px;
+font-size: 9px;
 color: #0065FC;
 margin-right: 9px;
 }
@@ -413,14 +429,21 @@ left: 0px;
 .Heberg
 {
 display: flex;
-height: 1290px; 
+height: 675px; 
 
+}
+.bastitre
+
+{
+    margin-top: 80px;
+    margin-left: 50px;
 }
 
 footer
 {
     display: flex;
     background-color: #F2F2F2;
+    margin-top: 30px;
 }
 
  .calanques, .marinaa
@@ -445,26 +468,26 @@ box-shadow: 5px 5px 7px 1px #f2f2f2;
 .pomègues
 
 {
-    height: 150px;
+    height: 180px;
     width: 300px;
 }
 .longchamps
 {
-    height: 180px;
+    height: 165px;
     width: 300px;
 }
 .ile
 {
-    height: 150px;
+    height: 106px;
     width: 300px; 
-    margin-top: 13px;
+   
 }
 
 .notres
 {
-    height: 150px;
+    height: 120px;
     width: 300px; 
-    margin-top: 13px;
+   
 
 
 }
@@ -490,6 +513,15 @@ height: 500px;
     
    
 }
+.frioul, .longc
+{
+    margin-top: 45px;
+}
+
+.footbold
+{
+
+}
 .vieuxport
 {
     margin: 0;
@@ -513,7 +545,7 @@ padding: 20px;
 
 .capnotre
 {
-    width: 280px;
+    width: 260px;
     margin: 0;
 
 }
