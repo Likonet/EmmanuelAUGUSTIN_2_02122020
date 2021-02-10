@@ -100,6 +100,7 @@ font-size: 15px;
 }
 .ecoeco{
 padding: 7px;
+width: 120px;
 }
 .famfam
 {
@@ -119,6 +120,8 @@ height: 42px;
 border: solid #F2F2F2 1px;
 margin: 0px;
 width: 195px;
+font-family: "semi";
+font-size: larger;
 }
 
 
@@ -238,7 +241,7 @@ padding-right: 1%;
 
 .eco
 {
-width: 170px;
+width: 190px;
 
 }
 .fam
@@ -347,7 +350,7 @@ aside, article
 article
 {
     width: 900px;
-    height: 800px;
+    height: 675px;
    
 }
 
@@ -548,4 +551,8 @@ padding: 20px;
     width: 260px;
     margin: 0;
 
+}
+.propos
+{
+    margin-inline-start: -80px;
 }
