@@ -61,6 +61,7 @@ margin: 0;
 .titre
 {
     font-size: 17px;
+    margin-right: 12px;
 }
 .btrecher
 {
@@ -130,9 +131,10 @@ font-size: larger;
 
 .titrediv
 {
-margin-left: 50px;
+margin-left: 43px;
 margin-top: 45px;
 margin-bottom: 25px;
+font-size: larger;
 }
 .recherche
 {
@@ -154,6 +156,7 @@ li
 margin-right: 0px;
 margin-left: 100px;
 margin-top: 11px;
+font-size: small;
 
 }
 header
@@ -283,9 +286,13 @@ font-size: 12px;
 
 
 }
+body
+{
+    width: 1320px;
+}
 nav
 {
-    margin-right: 75px;
+    margin-right: 160px;
 }
 article
 {
@@ -294,10 +301,16 @@ article
 }
 aside
 {
-  
-    width: 460px;
+    height: 570px;
+    width: 420px;
 margin-left: 40px;
   
+}
+
+#ancreact
+
+{
+    margin-top: 30px;
 }
 /* h1, h2, .footbold, h4, h3
 
@@ -335,15 +348,15 @@ aside, article
     padding: 2px;
     border-radius: 20px;
     background-color: white;
-    width: 220px;
-    margin: 0px;
-    height: 190px;
+    width: 200px;
+margin: 0px;
+height: 172px;
   
 }
  .vi2, .vi3, .vi4, .vi6, .vi5, .vi1
 {
-    width: 220px;
-    height: 115px;
+    width: 200px;
+    height: 100px;
     border-radius: 15px 15px 0px 0px; 
 }
 .pan
@@ -356,17 +369,20 @@ aside, article
 article
 {
     
-    min-width: 800px;
-    min-height: 675px;
+width: 750px;
+height: 570px;
 }
 
-.imageheberg
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-between; /*espace vertical non fonctionnel*/
-    height: 420px;
+
+  
+    .imageheberg {
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-between;
+        height: 383px;
+  
     margin-right: 30px;
     margin-left: 30px;
     }
@@ -374,8 +390,9 @@ article
 .pop1, .pop2, .pop3
 {
     width: 147px;
-    height: 145px;
-    border-radius: 20px 0px 0px 20px;
+   
+    height: 125px;
+border-radius: 15px 0px 0px 15px;
     
 }
     .legpop
@@ -383,6 +400,8 @@ article
         
         margin-left: 25px;
         margin-top: 5px;
+        height: 570px;
+        font-size: small;
     }
 .notes 
 {
@@ -393,14 +412,16 @@ display: flex;
 }
 .blanc, .eau, .soleil
 {
-    border: white  solid;
+
+border: white solid;
 display: flex;
 padding: 2px;
-border-radius: 25px;
+border-radius: 20px;
 background-color: white;
-width: 375px;
+width: 345px;
 margin: auto;
-height: 144px;
+height: 125px;
+margin-top: 0;
 }
 
 .etoiles
@@ -433,20 +454,23 @@ left: 0px;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
-    height: 545px;
+   
+    height: 470px;
     
 }
 .Heberg
 {
 display: flex;
-height: 675px; 
+height: 610px;
 
 }
 .bastitre
 
 {
-    margin-top: 80px;
-    margin-left: 50px;
+
+font-size: medium;
+margin-top: 30px;
+margin-left: 41px;
 }
 
 footer
@@ -460,13 +484,13 @@ footer
 {
 
 height: 400px;
-width: 300px;
+width: 270px;
 border-radius: 25px 25px 0px 0px;
 box-shadow: 5px 5px 7px 1px #f2f2f2;
 }
 .legheb
 {
-
+    font-size: small;
     margin-left: 10px;
 }
 .pomègues, .ile,  .notres, .longchamps
@@ -479,24 +503,24 @@ box-shadow: 5px 5px 7px 1px #f2f2f2;
 
 {
     height: 180px;
-    width: 300px;
+    width: 270px;
 }
 .longchamps
 {
     height: 165px;
-    width: 300px;
+    width: 270px;
 }
 .ile
 {
     height: 106px;
-    width: 300px; 
+    width: 270px; 
    
 }
 
 .notres
 {
     height: 120px;
-    width: 300px; 
+    width: 270px; 
    
 
 
@@ -505,7 +529,7 @@ box-shadow: 5px 5px 7px 1px #f2f2f2;
 
 {
  display: flex;   
-justify-content: space-between;
+/*justify-content: space-between;*/
 height: 500px;
 
  
@@ -521,6 +545,7 @@ height: 500px;
     margin-right: 0;
     display: flex;
     flex-direction: column;
+    width: 270px;
     
    
 }
@@ -559,13 +584,13 @@ margin: 0px;
 
 
 }
-.pomègues, .ile,  .notres, .longchamps, .calanques, .marinaa
+.pomègues, .ile,  .notres, .longchamps, 
 {
 
     border-radius: 25px 25px 0px 0px;
     box-shadow: 5px 5px 7px 1px #f2f2f2;
     height: 152px;
-    width: 380px;
+    width: 285px;
 }
 
 .capvieux, .capfort, .capile, .capparc, .capnotre, .caplong
@@ -578,7 +603,7 @@ padding: 20px;
 
 .capnotre
 {
-    width: 260px;
+    
     margin: 0;
 
 }
@@ -705,12 +730,21 @@ background-color: white;
 border-radius: 0px 0px 25px 25px;
 box-shadow: 5px 5px 7px 1px #f2f2f2;
 padding: 20px;
-width: 285px;
+width: 340px;
 
 }
 .bastitre
 {
     margin-top: 20px;
+}
+
+.pomègues, .ile,  .notres, .longchamps, .calanques, .marinaa
+{
+
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 5px 5px 7px 1px #f2f2f2;
+    height: 152px;
+    width: 380px;
 }
 .vieuxport, .fort, .frioul, .parc, .Dame, .longc
 {
