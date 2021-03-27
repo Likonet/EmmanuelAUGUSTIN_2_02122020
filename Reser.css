@@ -21,6 +21,10 @@ h1
 
 }
 
+.fa-search
+{
+    display: none;
+}
 h2
 {
 
@@ -50,6 +54,9 @@ margin-right:0px;
 .logopos
 {
 margin: 0px;
+display: flex;
+justify-content: space-between;
+width: 1376px;
 }
 .logo
 {
@@ -62,6 +69,12 @@ margin: 0;
 {
     font-size: 17px;
     margin-right: 12px;
+}
+
+.testttt
+{
+
+    display: flex;
 }
 .btrecher
 {
@@ -76,14 +89,10 @@ margin: 0px;
 width: 120px;
 font-size: medium;
 font-family: "semi";
-    /*
-border: solid white;
-background-color: #0065FC;
-margin-left: -3px;
-border-radius: 0px 13px 13px 0;
-color: white;
-height: 43px;
-padding: 12px;*/
+}
+.btrecher1
+{
+    display: none;
 }
 .fa-map-marker-alt
 {
@@ -163,6 +172,7 @@ header
  {
  display: flex;
  justify-content: space-between;
+ margin-top: 30px;
 }
  .groupbouton
  {
@@ -438,14 +448,9 @@ margin-top: 0;
 ul
 {
     list-style-type: none;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
-/*.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-{
-position: absolute;
-left: 0px;
-}*/
 .pop
 
 {
@@ -529,7 +534,6 @@ box-shadow: 5px 5px 7px 1px #f2f2f2;
 
 {
  display: flex;   
-/*justify-content: space-between;*/
 height: 500px;
 
  
@@ -611,6 +615,21 @@ padding: 20px;
 {
     margin-inline-start: -80px;
 }
+#apropos
+{
+    margin-right: 130px;
+
+}
+#engement
+{
+margin-right: 140px;
+}
+
+#assistance, #apropos, #engement
+{
+margin-top: 20px;
+}
+
 
 @media screen and (max-width: 500px)
 {
@@ -631,10 +650,16 @@ padding: 20px;
 justify-content: space-between;
 height: auto;
 flex-direction: column;
+margin-top: 20px;
     }
-body 
+body,  .bloc_page
 {
-    min-width: 400px;  
+    width: 500px;  
+}
+.logopos
+{
+    margin: 0px;
+    display: block;
 }
 
 .filtrage
@@ -650,7 +675,55 @@ body
     height: 200px;
     width: 320px;
 }
+.logo
+{
+    position: absolute;
+   
+}
+.hebb
+{
+color: #0065fc;
+border-bottom: solid;
+width: 170px;
+padding: 12px;
+margin-right: 0px;
+margin-left: 25px;
+margin-top: 11px;
+height: 22px;
+text-align: center;
+}
+.actt 
+{
+    border-bottom: solid;
+    border-bottom-color: currentcolor;
+border-color: #F2F2F2;
+width: 175px;
+padding: 12px;
+text-align: center;
+margin-right: 0px;
+margin-top: 11px;
+height: 22px;
+margin-left: 0px;
+}
+.insc
+{
+    margin-right: 32px;
+}
+.ttitt
+{
+width: 333px;
+font-size: x-large;
+margin-left: 10px;
 
+}
+p
+{
+    margin-left: 10px;
+}
+input
+{
+    width: 250px;
+}
 .eco, .fam, .love, .pets
 {
     margin: 0px;
@@ -669,6 +742,19 @@ body
     padding-right: 1%;
     flex-wrap: wrap;
 }
+.recherche, .filtrage, .soustitre, p, .ttitt, .logo, .titrediv
+{
+    margin-left: 30px;
+}
+.blanc, .eau, .soleil
+{
+    margin-left: 0px;
+    width: 300px;
+}
+.fa-chart-line {
+    margin-left: 95px;
+}
+
 .legheb
 {
 
@@ -679,15 +765,17 @@ body
 .pop
 {
     height: 500px;
-}
-.btrecher
-{
+    justify-content:none;
 
+}
+.btrecher1
+{
+    display: inline;
     border: none;
     background-color: #0065FC;
     border-radius: 15px;
     color: white;
-    height: 54px;
+    height: 45px;
     margin: 0px;
     width: 55px;
     font-size: large;
@@ -695,12 +783,35 @@ body
     margin-left: -34px;
 }
 
+nav, ul 
+{
+    display: block;
+justify-content: flex-end;
+list-style-type: none;
+color: #0065FC;
+flex-wrap: wrap-reverse;
+height: 111px;
+}
+.btrecher
+{
+    display: none;
+}
+.barrr
+{
+    margin-left: -76px;
+}
 
+li 
+{
+    font-size: large;
+    margin-left: 0;
+    color: black;
+}
 .vi2, .vi3, .vi4, .vi6, .vi5, .vi1
 {
     border-radius: 15px 15px 0px 0px; 
     height: 140px;
-    width: 380px;
+    width: 300px;
 } 
 .auberge, .port, .mouette, .mer, .panier, .amina
 
@@ -714,9 +825,13 @@ body
     box-shadow: 1px 6px 13px 10px #f2f2f2;
     height: 214px;
     margin-bottom: 15px;
-    width: 380px;
-    margin-left: 8px;
+    width: 300px;
+    margin-left: 0px;
     margin-right: 8px;
+}
+.pop1, .pop2, .pop3
+{
+    width: 120px;
 }
 
 article
@@ -730,8 +845,14 @@ background-color: white;
 border-radius: 0px 0px 25px 25px;
 box-shadow: 5px 5px 7px 1px #f2f2f2;
 padding: 20px;
-width: 340px;
+width: 260px;
 
+}
+#ancreact
+{
+margin-top: 1035px;
+margin-left: 30px;
+font-size: x-large;
 }
 .bastitre
 {
@@ -744,20 +865,21 @@ width: 340px;
     border-radius: 25px 25px 0px 0px;
     box-shadow: 5px 5px 7px 1px #f2f2f2;
     height: 152px;
-    width: 380px;
+    width: 300px;
 }
 .vieuxport, .fort, .frioul, .parc, .Dame, .longc
 {
    margin: auto;
    width: 325px; 
    margin-bottom: revert;
+   margin-left: 30px;
 }
 aside
 {
     width: 460px;
     margin-left: 0px;
     border-radius: 0px;
-    height: 640px;
+    height: 570px;
 
 }
 section{
