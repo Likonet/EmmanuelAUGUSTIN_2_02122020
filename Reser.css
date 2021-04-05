@@ -29,7 +29,11 @@ header
 {
     display: flex;
 justify-content: space-between;
-align-items: center;
+
+}
+.loogo
+{
+    width: 25%;
 }
 h2
 {
@@ -43,14 +47,24 @@ body
    
 }
 
-
+.blloc
+{
+    display: flex;
+justify-content: space-between;
+width: 20%;
+margin-left: 427px;
+}
 nav 
 {
     display: flex;
     justify-content: space-between;
-    width: 34%;
+    
+    width: 10%;
 }
- 
+ .insc
+ {
+    font-family: "semi";
+ }
 .bloc_page
 {
 margin-left: 50px;
@@ -67,8 +81,9 @@ width: 100%;
 }
 .logo
 {
-width: 90px;
-height: 50px;
+    
+    width: 27%;
+    
 margin: 0;
 }
 
@@ -147,7 +162,7 @@ font-size: larger;
 
 .titrediv
 {
-margin-left: 71px;
+margin-left: 65px;
 margin-top: 45px;
 margin-bottom: 25px;
 font-size: larger;
@@ -252,7 +267,7 @@ border: solid #F2F2F2;
 border-style: solid solid solid none;
 border-radius: 200px;
 max-height: 45px;
-margin-left: 3%;
+margin-left: 2%;
 
 line-height: normal;
 display: flex;
@@ -266,7 +281,7 @@ padding-right: 1%;
 .eco
 {
     width: 14%;
-
+    margin-left: 10px;
 }
 .fam
 {
@@ -408,7 +423,7 @@ height: 570px;
 
 .pop1, .pop2, .pop3
 {
-    width: 100%;
+    width: 41%;
    
     height: 125px;
 border-radius: 15px 0px 0px 15px;
@@ -485,7 +500,7 @@ justify-content: space-between;
 
 font-size: medium;
 margin-top: 30px;
-margin-left: 41px;
+margin-left: 54px;
 }
 
 footer
@@ -541,6 +556,11 @@ box-shadow: 5px 5px 7px 1px #f2f2f2;
 
 
 }
+
+.longc
+{
+    width: 89%;
+}
 .Activités
 
 {
@@ -552,6 +572,9 @@ height: 500px;
 .Dame, .longc
 {
    
+}
+.parc{
+    width: 44%;
 }
 .vieuxport, .fort, .frioul, .parc, .Dame
 {
@@ -590,12 +613,15 @@ text-align: center;
 .vieuxport
 {
     margin: 0;
+    width: 40%;
 }
+
 .gr1, .gr2
 {
 display: flex;
 flex-direction: column;
 margin: 0px;
+width: 49%;
 
 
 }
@@ -665,16 +691,17 @@ margin-top: 20px;
     }
 body,  .bloc_page
 {
-    width: 500px;  
+ 
 }
 .filtrebouton
 {
-    margin-top: 12px;
+   
 }
 .logopos
 {
     margin: 0px;
     display: block;
+
 }
 
 .filtrage
@@ -686,25 +713,46 @@ body,  .bloc_page
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    height: 200px;
-    width: 320px;
+    height: 173px;
+  
+}
+.loogo
+{
+    align-self: baseline;
+    width: 55%;
+
 }
 .logo
 {
-    position: absolute;
-    width: 106px;
-height: 46px;
-   
+    margin-left: 30px;
+    width: 43%;
 }
+.blloc
+{
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+height: 100px;
+width: 100%;
+justify-content: space-around;
+}
+header
+{
+display: flex;
+height: 123px;
+position: relative;
+justify-content: space-between;
+}
+
+
+
 .hebb
 {
 color: #0065fc;
 border-bottom: solid;
-width: 170px;
+width: 50%;
 padding: 12px;
 margin-right: 0px;
-margin-left: 25px;
 margin-top: 40px;
 height: 22px;
 text-align: center;
@@ -714,7 +762,7 @@ text-align: center;
     border-bottom: solid;
     border-bottom-color: currentcolor;
 border-color: #F2F2F2;
-width: 175px;
+width: 50%;
 padding: 12px;
 text-align: center;
 margin-right: 0px;
@@ -724,10 +772,14 @@ margin-left: 0px;
 }
 .insc
 {
-    margin-right: 32px;
-    height: 0px;
-    font-family: "semi";
-    color: #0065FC;
+   
+height: 18px;
+font-family: "semi";
+color: #0065FC;
+display: flex;
+font-family: "semi";
+margin-right: 31px;
+margin-top: 15px;
 }
 .ttitt
 {
@@ -744,9 +796,32 @@ input
 {
     width: 250px;
 }
+.eco
+{
+    width: 37%;
+    margin-right: 12px;
+}
+.fam 
+{
+width: 29%;
+
+}
+.love
+{
+    width: 35%;
+    margin-right: 100px;
+margin-top: 11px;
+}
+.pets
+{
+    width: 47%;
+    position: absolute;
+    height: inherit;
+}
 .eco, .fam, .love, .pets
 {
-    margin: 0px;
+  
+    margin-left: 0px;
 }
 .filtrebouton
 {
@@ -964,7 +1039,56 @@ article
 width: 100%;
 height: 570px;
 margin-top: 20px;
+}
 
+.btrecher
+{
+    display: none;
+}
+
+.btrecher1
+{
+    display: inline;
+    border: none;
+    background-color: #0065FC;
+    border-radius: 15px;
+    color: white;
+    height: 45px;
+    margin: 0px;
+    width: 55px;
+    font-size: large;
+    position: relative;
+    margin-left: -34px;
+}
+.loogo
+{
+    width: 45%;
+}
+.logo
+
+{
+    width: 30%;
+}
+.blloc
+{
+    display: flex;
+justify-content: space-between;
+width: 30%;
+margin-left: 0px;
+}
+.pets
+{
+    align-self: end;
+position: absolute;
+margin-bottom: 12px;
+}
+
+nav 
+{
+    display: flex;
+justify-content: space-between;
+width: 40%;
+font-size: small;
 }
 aside
 {
@@ -977,7 +1101,7 @@ background-color: #0065FC;
 .pop {
     display: flex;
     justify-content: space-between;
-    height: 470px;
+    height: 487px;
     flex-direction: row; 
 }
 .legheb
@@ -987,6 +1111,7 @@ margin-top: 5px;
 height: 570px;
 font-size: small;
 }
+
 .auberge, .auberge, .port, .mouette, .mer, .panier, .amina
 {
     border: white solid;
@@ -1005,6 +1130,11 @@ flex-direction: row;
     display: flex;
 
 }
+.filtrage {
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
 .vi1, .vi2, .vi3, .vi4, .vi5, .vi6
 
 {
@@ -1016,5 +1146,108 @@ height: 125px;
 {
     display: flex;
 }
+.eco
+{
+    width: 37%;
+}
+.fam 
+{
+width: 29%;
 
+}
+.love
+{
+    width: 35%;
+    margin-bottom: 36px;
+}
+.pets
+{
+    width: 27%;
+}
+.eco, .fam, .love, .pets
+{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.ecoeco, .famfam
+{
+    width: 80%;
+}
+.groupbouton {
+    display: flex;
+width: 69%;
+flex-wrap: wrap;
+height: 165px;
+}
+.blanc, .eau, .soleil
+{
+    border: white solid;
+display: flex;
+padding: 2px;
+border-radius: 20px;
+background-color: white;
+width: 28%;
+margin: auto;
+    margin-top: auto;
+height: 78px;
+margin-top: 0;
+}
+.pop1, .pop2, .pop3 {
+    width: 42%;
+    height: 76px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.legpop {
+    margin-left: 25px;
+    margin-top: 5px;
+    height: 29px;
+    font-size: xx-small;
+}
+.fa-star {
+    
+    font-size: xx-small;
+}
+.etoiles {
+ 
+    margin-top: 0px;
+   
+}
+.auberge, .port, .mouette, .mer, .panier, .amina
+{
+    border: white  solid;
+    display: flex;
+    flex-flow: column;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: white;
+    width: 26%;
+margin: 0px;
+height: 172px;
+  
+}
+ .vi2, .vi3, .vi4, .vi6, .vi5, .vi1
+{
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px; 
+}
+.pomègues, .ile, .notres, .longchamps, .calanques, .marinaa
+{
+height: 100px;
+}
+.gr1, .gr2
+{
+    width: 28%;
+}
+.longc {
+    width: 81%;
+}
+.parc, .vieuxport
+{
+    margin-top: 114px;
+}
+#apropos, #engement {
+    margin-right: 0px;
+}
 }
