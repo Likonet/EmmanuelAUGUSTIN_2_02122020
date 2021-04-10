@@ -735,6 +735,7 @@ body,  .bloc_page
 height: 100px;
 width: 100%;
 justify-content: space-around;
+margin-left: 0px;
 }
 header
 {
@@ -1199,10 +1200,11 @@ margin-top: 0;
 }
 
 .legpop {
-    margin-left: 25px;
+    margin-left: 8px;
     margin-top: 5px;
     height: 29px;
     font-size: xx-small;
+    width: 50%;
 }
 .fa-star {
     
@@ -1249,5 +1251,8 @@ height: 100px;
 }
 #apropos, #engement {
     margin-right: 0px;
+}
+.titrediv {
+    margin-left: 45px;
 }
 }
