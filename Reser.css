@@ -52,7 +52,7 @@ body
     display: flex;
 justify-content: space-between;
 width: 20%;
-margin-left: 427px;
+margin-left: 31%;
 }
 nav 
 {
@@ -167,6 +167,14 @@ margin-top: 45px;
 margin-bottom: 25px;
 font-size: larger;
 }
+.titrediv1
+{
+    margin-left: 14%;
+
+margin-top: 45px;
+margin-bottom: 25px;
+font-size: larger;
+}
 .recherche
 {
 display: flex;
@@ -192,13 +200,14 @@ font-size: small;
 }
 header
  {
-
+    margin-bottom: 30px;
  margin-top: 30px;
 }
  .groupbouton
  {
 display: flex;
-width: 100%;
+margin-left: 15px;
+
  }
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog  
   {
@@ -255,6 +264,8 @@ margin-right: 9px;
 display: flex;
 align-items: center;
 margin-bottom: 20px;
+margin-top: 20px;
+
 }
   
  /*.eco, .fam, .love, .pets*/
@@ -280,20 +291,20 @@ padding-right: 1%;
 
 .eco
 {
-    width: 14%;
+    width: 182px;
     margin-left: 10px;
 }
 .fam
 {
-width: 12%;
+width: 145px;
 }
 .love
 {
-width: 14%;    
+width: 175px;    
 }
 .pets
 {
-width: 17%;    
+width: 226px;    
 }
 
 
@@ -668,7 +679,7 @@ margin-top: 20px;
 }
 
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 600px)
 {
 
     .bloc_page
@@ -714,12 +725,14 @@ body,  .bloc_page
     display: flex;
     flex-wrap: wrap;
     height: 173px;
+    margin-left: 0px;
+    width: 445px;
   
 }
 .loogo
 {
-    align-self: baseline;
-    width: 55%;
+   
+    width: 43%;
 
 }
 .logo
@@ -730,21 +743,21 @@ body,  .bloc_page
 .blloc
 {
     display: flex;
-    align-self: flex-end;
-    position: absolute;
+
+    order: 3;
 height: 100px;
 width: 100%;
-justify-content: space-around;
+
 margin-left: 0px;
 }
-header
-{
-display: flex;
-height: 123px;
-position: relative;
-justify-content: space-between;
-}
 
+header {
+    display: flex;
+    height: 134px;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
 .hebb
@@ -754,7 +767,7 @@ border-bottom: solid;
 width: 50%;
 padding: 12px;
 margin-right: 0px;
-margin-top: 40px;
+margin-top: 0px;
 height: 22px;
 text-align: center;
 }
@@ -767,7 +780,7 @@ width: 50%;
 padding: 12px;
 text-align: center;
 margin-right: 0px;
-margin-top: 40px;
+margin-top: 0px;
 height: 22px;
 margin-left: 0px;
 }
@@ -781,6 +794,7 @@ display: flex;
 font-family: "semi";
 margin-right: 31px;
 margin-top: 15px;
+width: 22%;
 }
 .ttitt
 {
@@ -799,23 +813,23 @@ input
 }
 .eco
 {
-    width: 37%;
+    width: 160px;
     margin-right: 12px;
 }
 .fam 
 {
-width: 29%;
+width: 133px;
 
 }
 .love
 {
-    width: 35%;
+    width: 155px;
     margin-right: 100px;
 margin-top: 11px;
 }
 .pets
 {
-    width: 47%;
+    width: 200px;
     position: absolute;
     height: inherit;
 }
@@ -852,7 +866,7 @@ margin-top: 11px;
     width: 300px;
 }
 .fa-chart-line {
-    margin-left: 95px;
+    margin-left: 88px;
 }
 
 .legheb
@@ -885,6 +899,9 @@ margin-top: 11px;
 nav
 {
    width: 100%;
+}
+.titrediv1 {
+    margin-left: 8%;
 }
  ul 
 {
@@ -1024,9 +1041,15 @@ flex-direction: column;
 
 
 
-@media all and (min-width: 500px) and (max-width:800px)
+@media all and (min-width: 600px) and (max-width:1000px)
 
 {
+
+    .bastitre {
+        font-size: medium;
+        margin-top: 25px;
+        margin-left: 54px;
+    }
 
 .Heberg
 {
@@ -1038,10 +1061,13 @@ flex-direction: column;
 article
 {
 width: 100%;
-height: 570px;
+height: 1020px;
 margin-top: 20px;
 }
-
+.imageheberg
+{
+    height: 860px;
+}
 .btrecher
 {
     display: none;
@@ -1079,9 +1105,9 @@ margin-left: 0px;
 }
 .pets
 {
-    align-self: end;
-position: absolute;
-margin-bottom: 12px;
+    
+
+    
 }
 
 nav 
@@ -1094,7 +1120,7 @@ font-size: small;
 aside
 {
 
-height: 272px;
+height: 200px;
 width: 100%;
 margin: 0;
 background-color: #0065FC;
@@ -1112,7 +1138,15 @@ margin-top: 5px;
 height: 570px;
 font-size: small;
 }
-
+.titrediv1{
+    margin-left: 6%;
+    margin-top: 22px;
+    margin-bottom: 25px;
+    font-size: larger;
+}
+.fa-chart-line {
+    margin-left: 0px;
+}
 .auberge, .auberge, .port, .mouette, .mer, .panier, .amina
 {
     border: white solid;
@@ -1129,7 +1163,7 @@ flex-direction: row;
 }
 .Activités {
     display: flex;
-
+flex-wrap: wrap;
 }
 .filtrage {
     display: inline;
@@ -1146,6 +1180,13 @@ height: 125px;
 .gr2
 {
     display: flex;
+    width: 70%;
+}
+.Dame
+
+
+{
+    width: 100%;
 }
 .eco
 {
@@ -1159,16 +1200,24 @@ width: 29%;
 .love
 {
     width: 35%;
-    margin-bottom: 36px;
+   
 }
 .pets
 {
-    width: 27%;
+    width: 210px;
 }
 .eco, .fam, .love, .pets
 {
-    margin-right: 10px;
+    margin-right: 0px;
     margin-left: 0px;
+}
+.eco, .love
+{
+margin-right: 20px;
+}
+.titre
+{
+    margin-top: 30px;
 }
 .ecoeco, .famfam
 {
@@ -1176,9 +1225,11 @@ width: 29%;
 }
 .groupbouton {
     display: flex;
-width: 69%;
-flex-wrap: wrap;
-height: 165px;
+    width: 460px;
+    flex-wrap: wrap;
+    height: 165px;
+    margin-left: 0;
+    margin-top: 30px;
 }
 .blanc, .eau, .soleil
 {
@@ -1223,31 +1274,60 @@ margin-top: 0;
     padding: 2px;
     border-radius: 20px;
     background-color: white;
-    width: 26%;
+    width: 45%;
 margin: 0px;
-height: 172px;
+height: 250px;
   
 }
  .vi2, .vi3, .vi4, .vi6, .vi5, .vi1
 {
     width: 100%;
-    height: 100px;
+    height: 172px;
     border-radius: 15px 15px 0px 0px; 
 }
 .pomègues, .ile, .notres, .longchamps, .calanques, .marinaa
 {
 height: 100px;
 }
+.gr1
+{
+width: 69%;
+}
+.fort
+{
+    width: 60%;
+}
 .gr1, .gr2
 {
-    width: 28%;
+    
+    flex-direction: row;
+}
+.frioul, .longc {
+    margin-top: 0px;
 }
 .longc {
     width: 81%;
+    margin-right: 0;
+        width: 100%;
+    
 }
+.caplong
+{
+    height: 46px;
+}
+
+.parc {
+    width: 30%;
+}
+
 .parc, .vieuxport
 {
-    margin-top: 114px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.vieuxport
+{
+    width: 30%;
 }
 #apropos, #engement {
     margin-right: 0px;
@@ -1255,4 +1335,7 @@ height: 100px;
 .titrediv {
     margin-left: 45px;
 }
+
+
+
 }
