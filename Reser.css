@@ -666,6 +666,7 @@ padding: 20px;
 #apropos
 {
     margin-right: 130px;
+    margin-bottom: 30px;
 
 }
 #engement
@@ -673,7 +674,11 @@ padding: 20px;
 margin-right: 140px;
 }
 
-#assistance, #apropos, #engement
+#assistance
+{
+    margin-top: 0px;  
+}
+#apropos, #engement
 {
 margin-top: 20px;
 }
@@ -733,12 +738,13 @@ body,  .bloc_page
 {
    
     width: 43%;
+    height: 60px;
 
 }
 .logo
 {
     margin-left: 30px;
-    width: 43%;
+    width: 55%;
 }
 .blloc
 {
@@ -757,6 +763,7 @@ header {
     position: relative;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 0px;
 }
 
 
@@ -764,7 +771,7 @@ header {
 {
 color: #0065fc;
 border-bottom: solid;
-width: 50%;
+width: 60%;
 padding: 12px;
 margin-right: 0px;
 margin-top: 0px;
@@ -792,7 +799,7 @@ font-family: "semi";
 color: #0065FC;
 display: flex;
 font-family: "semi";
-margin-right: 31px;
+
 margin-top: 15px;
 width: 22%;
 }
@@ -880,7 +887,8 @@ margin-top: 11px;
 {
     height: 500px;
     justify-content:none;
-
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .btrecher1
 {
@@ -956,7 +964,7 @@ li
 
 article
 {
-    min-width: 460px;
+    width: 100%;
 background-color: white;
 }
 
@@ -996,10 +1004,10 @@ font-size: x-large;
 }
 aside
 {
-    width: 460px;
+    width: 100%;
     margin-left: 0px;
     border-radius: 0px;
-    height: 570px;
+    height: 600px;
 
 }
 section{
@@ -1011,6 +1019,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column-reverse;
     height: auto;
+    width: 100%;
 }
 .imageheberg
 {
@@ -1036,6 +1045,15 @@ flex-direction: column;
 .propos
 {
     margin-inline-start: 0px;
+}
+.fa-info {
+    padding: 7px 10px;
+    border: #F2F2F2 solid 1px;
+    border-radius: 64px;
+    font-size: 9px;
+    color: #0065FC;
+    margin-right: 9px;
+    margin-bottom: 19px;
 }
 }
 
@@ -1292,10 +1310,11 @@ height: 100px;
 .gr1
 {
 width: 69%;
+
 }
-.fort
+.fort, .frioul
 {
-    width: 60%;
+    width: 100%;
 }
 .gr1, .gr2
 {
